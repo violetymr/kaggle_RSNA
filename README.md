@@ -37,11 +37,7 @@
 | 5     | 256| 0.09 | 0.118  |
 | 2     | 128| 0.10 | 0.124  |
         
-|Tables         | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+
         
    - gpu环境运行 
         - cuda:0 device
