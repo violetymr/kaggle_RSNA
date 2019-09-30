@@ -30,6 +30,7 @@
         - grad update zero
        
    - train/test  最后可以看到有些过拟合
+   
 | epoch | px | loss | result |
 |:-----:|:--:|:----:|:------:|
 | 7     | 256| 0.08 | 0.119  |    
