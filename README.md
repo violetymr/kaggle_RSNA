@@ -43,7 +43,9 @@
         - cuda:0 device
         - apex加速，实际安装后报gcc链接错误，只能改代码取消apex
 
-
+# TO DO LIST
+- 首先肯定是试着改进模型
+- 调参
 
 
 
