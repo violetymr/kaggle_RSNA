@@ -25,18 +25,20 @@
         - 165G->14G／3.5G  window resize dataloader构造dataset. ----albumentations库
   
    - model构建：efficientnet pretrain-model 
-        forward y_pred -> loss
-        loss.backward -> update weight(optimizier.step())
-        grad update zero
+        - forward y_pred -> loss
+        - loss.backward -> update weight(optimizier.step())
+        - grad update zero
        
    - train/test 
-        epoch px loss result
-        7 256 0.08 0.119 有些过拟合
-        5 256 0.09 0.118
-        2 128 0.10 0.124
+        epoch | px | loss | result
+        -|-|-
+        7 | 256 | 0.08 | 0.119    有些过拟合
+        5 | 256 | 0.09 | 0.118
+        2 | 128 | 0.10 | 0.124
         
-   - gpu环境运行 cuda:0 device
-                apex加速，实际安装后报gcc链接错误，只能改代码取消apex
+   - gpu环境运行 
+        - cuda:0 device
+        - apex加速，实际安装后报gcc链接错误，只能改代码取消apex
 
 
 
